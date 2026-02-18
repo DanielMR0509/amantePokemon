@@ -64,10 +64,10 @@
         android:layout_height="151dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.526"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.196"
+        app:layout_constraintHorizontal_bias="0.456"
+        app:layout_constraintStart_toStartOf="@+id/tvNombrePokemon"
+        app:layout_constraintTop_toTopOf="@+id/ivPokeball"
+        app:layout_constraintVertical_bias="0.168"
         app:srcCompat="@drawable/pikachu" />
 
     <TextView
@@ -80,7 +80,7 @@
         android:textSize="32sp"
         app:layout_constraintBottom_toTopOf="@+id/ivPikachu"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.108"
+        app:layout_constraintHorizontal_bias="0.078"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.464" />
@@ -92,10 +92,11 @@
         android:text="#025"
         android:textSize="18sp"
         app:layout_constraintBottom_toTopOf="@+id/ivPikachu"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.291"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/tvNombrePokemon" />
+        app:layout_constraintEnd_toStartOf="@+id/ivPikachu"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/tvNombrePokemon"
+        app:layout_constraintTop_toBottomOf="@+id/tvNombrePokemon"
+        app:layout_constraintVertical_bias="0.0" />
 
     <TextView
         android:id="@+id/tvNomNumPokIzq"
@@ -231,7 +232,7 @@
         app:layout_constraintVertical_bias="0.507" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/btnAbrirLogin"
         android:layout_width="116dp"
         android:layout_height="48dp"
         android:backgroundTint="@color/yellow"
