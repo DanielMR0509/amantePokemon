@@ -9,6 +9,7 @@
     tools:context=".MainActivity">
 
     <androidx.cardview.widget.CardView
+        android:id="@+id/cvVistaFondo"
         android:layout_width="411dp"
         android:layout_height="480dp"
         android:translationZ="-10dp"
@@ -100,6 +101,7 @@
 
     <TextView
         android:id="@+id/tvNomNumPokIzq"
+        style="@style/text_informative"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Arbok N.° 0024"
@@ -112,6 +114,7 @@
 
     <TextView
         android:id="@+id/tvNomNumPokDer"
+        style="@style/text_informative"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Raichu N.° 0026"
@@ -136,6 +139,7 @@
 
     <TextView
         android:id="@+id/tvDescripcion"
+        style="@style/text_informative"
         android:layout_width="265dp"
         android:layout_height="121dp"
         android:text="Cuando se enfada, este Pokémon descarga la energía que almacena en el interior de las bolsas de las mejillas."
@@ -153,7 +157,7 @@
         android:layout_height="wrap_content"
         android:fontFamily="sans-serif-black"
         android:text="Altura"
-        android:textColor="@color/barn_red"
+        android:textColor="@color/text_attributes"
         android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -164,6 +168,7 @@
 
     <TextView
         android:id="@+id/tvValorAltura"
+        style="@style/text_informative"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="0,4m"
@@ -181,7 +186,7 @@
         android:layout_height="wrap_content"
         android:fontFamily="sans-serif-black"
         android:text="Peso"
-        android:textColor="@color/barn_red"
+        android:textColor="@color/text_attributes"
         android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -192,6 +197,7 @@
 
     <TextView
         android:id="@+id/tvValorPeso"
+        style="@style/text_informative"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="6,0kg"
@@ -209,7 +215,7 @@
         android:layout_height="wrap_content"
         android:fontFamily="sans-serif-black"
         android:text="Habilidad"
-        android:textColor="@color/barn_red"
+        android:textColor="@color/text_attributes"
         android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -220,6 +226,7 @@
 
     <TextView
         android:id="@+id/tvTipoHabilidad"
+        style="@style/text_informative"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Elec. Estática"
@@ -237,7 +244,7 @@
         android:layout_height="48dp"
         android:backgroundTint="@color/yellow"
         android:text="Eléctrico"
-        android:textColor="@color/black"
+        android:textColor="#FF000000"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.488"
